@@ -79,7 +79,7 @@ class EducationalTranscriptAnalyzer:
         return result
     
     def _parse_conversations(self, text: str) -> List[Dict[str, Any]]:
-        """Parse transcript into structured conversation data"""
+        
         conversations = []
         lines = text.split('\n')
         
@@ -108,7 +108,7 @@ class EducationalTranscriptAnalyzer:
         return conversations
     
     def _extract_session_metadata(self, text: str) -> Dict[str, Any]:
-        """Extract session details and context"""
+        
         metadata = {}
         
         
@@ -132,7 +132,7 @@ class EducationalTranscriptAnalyzer:
         return metadata
     
     def _analyze_subjects(self, text: str) -> Dict[str, Any]:
-        """Identify academic subjects and topics covered"""
+        
         text_lower = text.lower()
         subjects_found = {}
         
