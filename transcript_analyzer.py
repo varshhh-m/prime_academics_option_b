@@ -30,9 +30,9 @@ class EducationalTranscriptAnalyzer:
         }
     
     def analyze_transcript(self, transcript_text: str) -> Dict[str, Any]:
-        """Comprehensive educational analysis of transcript"""
         
-        print("🔍 Analyzing transcript with educational expertise...")
+        
+        print(" Analyzing transcript with educational expertise...")
         
         
         parsed_conversations = self._parse_conversations(transcript_text)
